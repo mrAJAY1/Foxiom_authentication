@@ -1,14 +1,17 @@
 import { useContext } from "react";
-import { userContext } from "../contexts/userContext";
 import { toast } from "react-toastify";
+import { userContext } from "../contexts/userContext";
 
 // Custom hook for handling user authentication
 const useAuth = () => {
   // Accessing user and setUser from userContext
   const { user, setUser } = useContext(userContext);
-
   // Function to create a session with the server
   const createSession = async (url, body) => {
+    // NOTE - simply use this line to demonstrate a successful login
+    // setUser({ name: "test" });
+
+    // else
     // Check if user is logged in
     if (!user) {
       try {
