@@ -16,4 +16,6 @@
 
 ## NOTE: App is made by assuming that the backend has separate endpoints for social auth.
 
+## Vite proxy is set to assume the backend is running on port 3000. see `vite.config.js`
+
 ## Expects the backend to send authentication tokens in http only cookies.
