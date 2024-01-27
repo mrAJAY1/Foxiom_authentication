@@ -20,7 +20,7 @@ This app includes:
 4. Utilisation of custom hooks and Context API.
 5. Tailwind CSS.
 ----------------------------------------------------------------
-> **_NOTE:_** App is made by assuming that the backend has separate endpoints for social auth and the tokens are sent in httponly cookies. To mock the result, uncomment the NOTE anchor comment in `useAuth` hook.
+> **_NOTE:_** App is made by assuming that the backend has separate endpoints for social auth and the tokens are sent in httponly cookies. To mock the result, uncomment the NOTE anchor comment in `useSocialAuth` hook.
 ----------------------------------------------------------------
 
 ## Info:
