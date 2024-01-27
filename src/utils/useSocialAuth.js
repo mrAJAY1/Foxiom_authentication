@@ -9,7 +9,7 @@ const useAuth = () => {
   // Function to create a session with the server
   const createSession = async (url, body) => {
     // NOTE - simply use this line to demonstrate a successful login
-    // setUser({ name: "test" });
+    // return setUser({ name: "test" });
 
     // else
     // Check if user is logged in
